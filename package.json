@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
+    "start": "npm run dev",
     "bootstrap": "pnpm i --prefer-offline",
     "dev": "rspack serve",
     "build": "rspack build"

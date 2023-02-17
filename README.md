@@ -1,5 +1,18 @@
 ## SolidJS Rspack Template
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <img src="./media/dev-server.png">
+            </td>
+            <td>
+                <img src="./media/browser.png">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
 The monorepo example leverage `pnpm` as the package manager. To install `pnpm`, run the following command in your terminal.
@@ -16,7 +29,7 @@ Run `pnpm install` to install all the dependencies.
 
 In the project directory, you can run:
 
-### `npm dev` or `npm start`
+### `npm dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
