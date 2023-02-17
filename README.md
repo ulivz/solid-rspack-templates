@@ -2,11 +2,13 @@
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+The monorepo example leverage `pnpm` as the package manager. To install `pnpm`, run the following command in your terminal.
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm install -g pnpm
 ```
+
+Run `pnpm install` to install all the dependencies.
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 

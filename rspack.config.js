@@ -3,7 +3,6 @@ module.exports = {
     entry: {
       main: './src/index.jsx'
     },
-
     module: {
       rules: [
         {
