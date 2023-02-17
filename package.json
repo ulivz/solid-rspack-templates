@@ -3,17 +3,19 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "bootstrap": "pnpm i --prefer-offline",
+    "dev": "rspack serve",
+    "build": "rspack build"
   },
   "license": "MIT",
   "devDependencies": {
-    "vite": "^4.1.1",
-    "vite-plugin-solid": "^2.5.0"
+    "@rspack/cli": "0.0.0-2bdd24cd-20230216082940",
+    "babel-loader": "9.1.2",
+    "@babel/core": "7",
+    "babel-preset-solid": "1.6.10",
+    "solid-refresh": "^0.4.3"
   },
   "dependencies": {
-    "solid-js": "^1.6.10"
+    "solid-js": "1.6.10"
   }
 }
