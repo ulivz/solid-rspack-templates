@@ -2,14 +2,6 @@
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-The monorepo example leverage `pnpm` as the package manager. To install `pnpm`, run the following command in your terminal.
-
-```bash
-npm install -g pnpm
-```
-
-Run `pnpm install` to install all the dependencies.
-
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
 ## Available Scripts
