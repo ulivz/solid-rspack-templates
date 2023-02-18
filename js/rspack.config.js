@@ -34,8 +34,5 @@ module.exports = {
       html: [{
         template: './index.html'
       }],
-      react: {
-        importSource: 'solid-js'
-      }
     }
   }
