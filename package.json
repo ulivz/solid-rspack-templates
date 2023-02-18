@@ -1,4 +1,8 @@
 {
     "private": true,
-    "name": "solid-rspack-templates"
+    "name": "solid-rspack-templates",
+    "scripts": {
+        "dev:js": "pnpm run --filter js dev",
+        "dev:ts": "pnpm run --filter ts dev"
+    }
 }
