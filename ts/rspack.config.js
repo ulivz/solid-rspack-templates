@@ -1,3 +1,6 @@
+/**
+ * @type {import('@rspack/cli').Configuration}
+ */
 module.exports = {
     context: __dirname,
     entry: {
@@ -5,10 +8,6 @@ module.exports = {
     },
     module: {
       rules: [
-        {
-          test: /\.css$/,
-          type: 'css'
-        },
         {
           test: /\.module.css$/,
           type: 'css/module'
@@ -33,12 +32,8 @@ module.exports = {
       ]
     },
     builtins: {
-      minify: false,
       html: [{
         template: './index.html'
       }],
-      react: {
-        importSource: 'solid-js'
-      }
     }
   }
